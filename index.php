@@ -34,7 +34,7 @@ $_SESSION['errmsg']="Invalid username or password";
 </head>
 <style>
 body {
-    background-color: #0685ce;
+    background-image: url("buku.jpg");
 }
 
 .card-header {
@@ -42,14 +42,12 @@ body {
 }
 
 .login {
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 h2, h3, legend, p, a{
     color: white;
 }
-
-
 </style>
 
 <body>
@@ -104,7 +102,10 @@ h2, h3, legend, p, a{
                                         <p>
                                             Didn't have an account? Please <a href="#">Sign up or Click here</a>
                                         </p>
-                                        <br>
+										<p>
+                                            Forgot password? <a href="#">Click here</a>
+                                        </p>
+										<br>
                                         <button type="submit" class="btn btn-primary" name="submit">
                                             LOGIN
                                         </button>
