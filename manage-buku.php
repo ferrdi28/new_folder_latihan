@@ -10,7 +10,7 @@ if(strlen($_SESSION['id']==0)) {
 if(isset($_GET['del']))
 		  {
 		  	$bukuid=$_GET['id'];
-		          mysqli_query($con,"delete from buku where id ='$bukuid'");
+		          mysqli_query($con,"delete from tabelbuku where id ='$bukuid'");
                   $_SESSION['msg']="data deleted !";
 		  }
 ?>
