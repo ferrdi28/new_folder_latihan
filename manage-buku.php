@@ -33,10 +33,9 @@ h1 {
     color: white;
 }
 
-button{
+button {
     margin-left: 50%;
 }
-
 </style>
 
 <body>
@@ -69,7 +68,7 @@ button{
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php
+        <?php
 		$sql=mysqli_query($con,"select * from tabelbuku");
 		$cnt=1;
 		while($row=mysqli_fetch_array($sql))
@@ -112,8 +111,8 @@ button{
         <br>
         <br>
         <a href="index.php"><button type="submit" class="btn btn-primary" name="submit">
-            LOGOUT
-        </button></a>
+                LOGOUT
+            </button></a>
     </div>
 </body>
 

@@ -64,8 +64,8 @@ h2, h3, legend, p, a{
     <br>
     <br>
     <div class="login">
-        <div class="container mt-3">
-            <div class="row justify-content-md-center">
+        <div class="container mt-3 justify-content-sm-center">
+            <div class="row justify-content-sm-center">
                 <!-- col -->
                 <div class="col-6">
                     <!-- card -->
